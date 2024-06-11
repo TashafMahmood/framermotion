@@ -6,6 +6,7 @@ import ProgressBar from "./components/ProgressBar";
 import EnterAndExitAnimation from "./components/EnterAndExitAnimation";
 import Keyframes from "./components/Keyframes";
 import GestureButton from "./components/GestureButton";
+import DraggableDiv from "./components/DraggableDiv";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <EnterAndExitAnimation />
       <Keyframes />
       <GestureButton />
+      <DraggableDiv/>
     </>
   );
 }
