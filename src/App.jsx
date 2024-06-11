@@ -5,6 +5,7 @@ import "./App.css";
 import ProgressBar from "./components/ProgressBar";
 import EnterAndExitAnimation from "./components/EnterAndExitAnimation";
 import Keyframes from "./components/Keyframes";
+import GestureButton from "./components/GestureButton";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <ProgressBar />
       <EnterAndExitAnimation />
       <Keyframes />
+      <GestureButton />
     </>
   );
 }
