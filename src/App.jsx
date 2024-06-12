@@ -7,6 +7,7 @@ import EnterAndExitAnimation from "./components/EnterAndExitAnimation";
 import Keyframes from "./components/Keyframes";
 import GestureButton from "./components/GestureButton";
 import DraggableDiv from "./components/DraggableDiv";
+import Variants from "./components/Variants";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Keyframes />
       <GestureButton />
       <DraggableDiv/>
+      <Variants/>
     </>
   );
 }
